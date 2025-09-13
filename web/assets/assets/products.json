@@ -1,0 +1,584 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "cocktail",
+      "subcategories": [
+        {
+          "id": 1,
+          "name": "classic"
+        },
+        {
+          "id": 2,
+          "name": "tropical"
+        },
+        {
+          "id": 3,
+          "name": "signature"
+        },
+        {
+          "id": 4,
+          "name": "sparkling"
+        },
+        {
+          "id": 5,
+          "name": "brunch"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Margarita",
+      "description": "Clásico cóctel mexicano con tequila, lima y triple sec.",
+      "image_url": "https://picsum.photos/seed/bit_drinks1/400/600",
+      "price": 120.00,
+      "category_id": 1,
+      "subcategory_id": 1,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "Mojito",
+      "description": "Refrescante mezcla de ron, hierbabuena y lima.",
+      "image_url": "https://picsum.photos/seed/bit_drinks2/400/600",
+      "price": 110.00,
+      "category_id": 1,
+      "subcategory_id": 1,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "Cosmopolitan",
+      "description": "Cóctel sofisticado de vodka, licor de naranja, lima y arándano.",
+      "image_url": "https://picsum.photos/seed/bit_drinks3/400/600",
+      "price": 130.00,
+      "category_id": 1,
+      "subcategory_id": 1,
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "Old Fashioned",
+      "description": "Bourbon con azúcar y bitters, un clásico de bar.",
+      "image_url": "https://picsum.photos/seed/bit_drinks4/400/600",
+      "price": 140.00,
+      "category_id": 1,
+      "subcategory_id": 1,
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "Pina Colada",
+      "description": "Ron, piña y crema de coco, el paraíso tropical.",
+      "image_url": "https://picsum.photos/seed/bit_drinks5/400/600",
+      "price": 125.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 6,
+      "name": "Daiquiri",
+      "description": "Ron y lima servidos helados, un placer caribeño.",
+      "image_url": "https://picsum.photos/seed/bit_drinks6/400/600",
+      "price": 120.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 7,
+      "name": "Mai Tai",
+      "description": "Mezcla de rones, curaçao y zumo de lima tropical.",
+      "image_url": "https://picsum.photos/seed/bit_drinks7/400/600",
+      "price": 135.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 8,
+      "name": "Caipirinha",
+      "description": "La bebida nacional de Brasil, con cachaça y lima.",
+      "image_url": "https://picsum.photos/seed/bit_drinks8/400/600",
+      "price": 120.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 9,
+      "name": "Espresso Martini",
+      "description": "Vodka, licor de café y espresso, sofisticación en vaso.",
+      "image_url": "https://picsum.photos/seed/bit_drinks9/400/600",
+      "price": 145.00,
+      "category_id": 1,
+      "subcategory_id": 3,
+      "available": true
+    },
+    {
+      "id": 10,
+      "name": "Negroni",
+      "description": "Una trilogía de gin, vermut y campari.",
+      "image_url": "https://picsum.photos/seed/bit_drinks10/400/600",
+      "price": 130.00,
+      "category_id": 1,
+      "subcategory_id": 3,
+      "available": true
+    },
+    {
+      "id": 11,
+      "name": "Aperol Spritz",
+      "description": "Aperol, prosecco y soda, burbujas italianas.",
+      "image_url": "https://picsum.photos/seed/bit_drinks11/400/600",
+      "price": 115.00,
+      "category_id": 1,
+      "subcategory_id": 3,
+      "available": true
+    },
+    {
+      "id": 12,
+      "name": "French 75",
+      "description": "Gin, champán y limón, ideal para festejar.",
+      "image_url": "https://picsum.photos/seed/bit_drinks12/400/600",
+      "price": 150.00,
+      "category_id": 1,
+      "subcategory_id": 4,
+      "available": true
+    },
+    {
+      "id": 13,
+      "name": "Mimosa",
+      "description": "Champán y jugo de naranja para el brunch ideal.",
+      "image_url": "https://picsum.photos/seed/bit_drinks13/400/600",
+      "price": 120.00,
+      "category_id": 1,
+      "subcategory_id": 4,
+      "available": true
+    },
+    {
+      "id": 14,
+      "name": "Bellini",
+      "description": "Prosecco y durazno, fresco y afrutado.",
+      "image_url": "https://picsum.photos/seed/bit_drinks14/400/600",
+      "price": 125.00,
+      "category_id": 1,
+      "subcategory_id": 4,
+      "available": true
+    },
+    {
+      "id": 15,
+      "name": "Manhattan",
+      "description": "Whiskey, vermut y bitters, tradicional y profundo.",
+      "image_url": "https://picsum.photos/seed/bit_drinks15/400/600",
+      "price": 140.00,
+      "category_id": 1,
+      "subcategory_id": 1,
+      "available": true
+    },
+    {
+      "id": 16,
+      "name": "Whiskey Sour",
+      "description": "Whiskey y limón, balance ácido y dulce.",
+      "image_url": "https://picsum.photos/seed/bit_drinks16/400/600",
+      "price": 125.00,
+      "category_id": 1,
+      "subcategory_id": 1,
+      "available": true
+    },
+    {
+      "id": 17,
+      "name": "Bloody Mary",
+      "description": "Vodka y jugo de tomate con especias.",
+      "image_url": "https://picsum.photos/seed/bit_drinks17/400/600",
+      "price": 130.00,
+      "category_id": 1,
+      "subcategory_id": 5,
+      "available": true
+    },
+    {
+      "id": 18,
+      "name": "Tom Collins",
+      "description": "Gin, soda y limón, burbujeante y refrescante.",
+      "image_url": "https://picsum.photos/seed/bit_drinks18/400/600",
+      "price": 110.00,
+      "category_id": 1,
+      "subcategory_id": 1,
+      "available": true
+    },
+    {
+      "id": 19,
+      "name": "Gin Fizz",
+      "description": "Gin, soda y jugo de limón, fresco y aireado.",
+      "image_url": "https://picsum.photos/seed/bit_drinks19/400/600",
+      "price": 120.00,
+      "category_id": 1,
+      "subcategory_id": 1,
+      "available": true
+    },
+    {
+      "id": 20,
+      "name": "Paloma",
+      "description": "Tequila, refresco de toronja y lima.",
+      "image_url": "https://picsum.photos/seed/bit_drinks20/400/600",
+      "price": 115.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 21,
+      "name": "Singapore Sling",
+      "description": "Gin, licor de cereza y piña, exótico y colorido.",
+      "image_url": "https://picsum.photos/seed/bit_drinks21/400/600",
+      "price": 135.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 22,
+      "name": "Mint Julep",
+      "description": "Whiskey, menta y azúcar, típico del sur de EEUU.",
+      "image_url": "https://picsum.photos/seed/bit_drinks22/400/600",
+      "price": 125.00,
+      "category_id": 1,
+      "subcategory_id": 1,
+      "available": true
+    },
+    {
+      "id": 23,
+      "name": "Sazerac",
+      "description": "Whiskey y absenta, clásico de Nueva Orleans.",
+      "image_url": "https://picsum.photos/seed/bit_drinks23/400/600",
+      "price": 140.00,
+      "category_id": 1,
+      "subcategory_id": 3,
+      "available": true
+    },
+    {
+      "id": 24,
+      "name": "Rum Punch",
+      "description": "Varios rones y jugos, explosivo y tropical.",
+      "image_url": "https://picsum.photos/seed/bit_drinks24/400/600",
+      "price": 135.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 25,
+      "name": "Tequila Sunrise",
+      "description": "Tequila, granadina y jugo de naranja.",
+      "image_url": "https://picsum.photos/seed/bit_drinks25/400/600",
+      "price": 120.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 26,
+      "name": "Sidecar",
+      "description": "Brandy, triple sec y limón, sofisticado.",
+      "image_url": "https://picsum.photos/seed/bit_drinks26/400/600",
+      "price": 130.00,
+      "category_id": 1,
+      "subcategory_id": 3,
+      "available": true
+    },
+    {
+      "id": 27,
+      "name": "Irish Coffee",
+      "description": "Café, whiskey y crema, para despertar el ánimo.",
+      "image_url": "https://picsum.photos/seed/bit_drinks27/400/600",
+      "price": 140.00,
+      "category_id": 1,
+      "subcategory_id": 5,
+      "available": true
+    },
+    {
+      "id": 28,
+      "name": "Moscow Mule",
+      "description": "Vodka, ginger beer y lima, servido en copa fría.",
+      "image_url": "https://picsum.photos/seed/bit_drinks28/400/600",
+      "price": 120.00,
+      "category_id": 1,
+      "subcategory_id": 3,
+      "available": true
+    },
+    {
+      "id": 29,
+      "name": "Black Russian",
+      "description": "Vodka y licor de café, sencillo pero elegante.",
+      "image_url": "https://picsum.photos/seed/bit_drinks29/400/600",
+      "price": 110.00,
+      "category_id": 1,
+      "subcategory_id": 3,
+      "available": true
+    },
+    {
+      "id": 30,
+      "name": "White Russian",
+      "description": "Vodka, licor de café y crema.",
+      "image_url": "https://picsum.photos/seed/bit_drinks30/400/600",
+      "price": 120.00,
+      "category_id": 1,
+      "subcategory_id": 3,
+      "available": true
+    },
+    {
+      "id": 31,
+      "name": "Sea Breeze",
+      "description": "Vodka, arándano y toronja, refrescante.",
+      "image_url": "https://picsum.photos/seed/bit_drinks31/400/600",
+      "price": 110.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 32,
+      "name": "Blue Lagoon",
+      "description": "Vodka, curaçao azul y limón.",
+      "image_url": "https://picsum.photos/seed/bit_drinks32/400/600",
+      "price": 115.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 33,
+      "name": "Hurricane",
+      "description": "Ron, jugos de fruta y granadina.",
+      "image_url": "https://picsum.photos/seed/bit_drinks33/400/600",
+      "price": 130.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 34,
+      "name": "Planter's Punch",
+      "description": "Ron, jugos, azúcar y bitters, caribe en tu vaso.",
+      "image_url": "https://picsum.photos/seed/bit_drinks34/400/600",
+      "price": 130.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 35,
+      "name": "Amaretto Sour",
+      "description": "Amaretto y limón, dulzura italiana.",
+      "image_url": "https://picsum.photos/seed/bit_drinks35/400/600",
+      "price": 120.00,
+      "category_id": 1,
+      "subcategory_id": 1,
+      "available": true
+    },
+    {
+      "id": 36,
+      "name": "Boulevardier",
+      "description": "Bourbon, vermut rosso y campari.",
+      "image_url": "https://picsum.photos/seed/bit_drinks36/400/600",
+      "price": 130.00,
+      "category_id": 1,
+      "subcategory_id": 1,
+      "available": true
+    },
+    {
+      "id": 37,
+      "name": "Vesper Martini",
+      "description": "Gin, vodka y Lillet, elegante y fuerte.",
+      "image_url": "https://picsum.photos/seed/bit_drinks37/400/600",
+      "price": 135.00,
+      "category_id": 1,
+      "subcategory_id": 3,
+      "available": true
+    },
+    {
+      "id": 38,
+      "name": "Rum Runner",
+      "description": "Mezcla de rones, licor de plátano y moras.",
+      "image_url": "https://picsum.photos/seed/bit_drinks38/400/600",
+      "price": 140.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 39,
+      "name": "Godfather",
+      "description": "Scotch y amaretto, simple y sabroso.",
+      "image_url": "https://picsum.photos/seed/bit_drinks39/400/600",
+      "price": 120.00,
+      "category_id": 1,
+      "subcategory_id": 3,
+      "available": true
+    },
+    {
+      "id": 40,
+      "name": "Long Island Iced Tea",
+      "description": "Varios licores con toque de cola.",
+      "image_url": "https://picsum.photos/seed/bit_drinks40/400/600",
+      "price": 140.00,
+      "category_id": 1,
+      "subcategory_id": 1,
+      "available": true
+    },
+    {
+      "id": 41,
+      "name": "Brandy Alexander",
+      "description": "Brandy, cacao y crema.",
+      "image_url": "https://picsum.photos/seed/bit_drinks41/400/600",
+      "price": 125.00,
+      "category_id": 1,
+      "subcategory_id": 3,
+      "available": true
+    },
+    {
+      "id": 42,
+      "name": "Cuba Libre",
+      "description": "Ron, cola y lima.",
+      "image_url": "https://picsum.photos/seed/bit_drinks42/400/600",
+      "price": 110.00,
+      "category_id": 1,
+      "subcategory_id": 1,
+      "available": true
+    },
+    {
+      "id": 43,
+      "name": "Zombie",
+      "description": "Varios rones, jugos y licor de apricot.",
+      "image_url": "https://picsum.photos/seed/bit_drinks43/400/600",
+      "price": 150.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 44,
+      "name": "Painkiller",
+      "description": "Ron, piña, crema de coco y nuez moscada.",
+      "image_url": "https://picsum.photos/seed/bit_drinks44/400/600",
+      "price": 155.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 45,
+      "name": "Pisco Sour",
+      "description": "Pisco, lima, jarabe y clara de huevo.",
+      "image_url": "https://picsum.photos/seed/bit_drinks45/400/600",
+      "price": 125.00,
+      "category_id": 1,
+      "subcategory_id": 3,
+      "available": true
+    },
+    {
+      "id": 46,
+      "name": "Caipiroska",
+      "description": "Vodka y lima, versión rusa de la caipirinha.",
+      "image_url": "https://picsum.photos/seed/bit_drinks46/400/600",
+      "price": 115.00,
+      "category_id": 1,
+      "subcategory_id": 2,
+      "available": true
+    },
+    {
+      "id": 47,
+      "name": "Jack Rose",
+      "description": "Applejack, granadina y limón.",
+      "image_url": "https://picsum.photos/seed/bit_drinks47/400/600",
+      "price": 135.00,
+      "category_id": 1,
+      "subcategory_id": 1,
+      "available": true
+    },
+    {
+      "id": 48,
+      "name": "Aviation",
+      "description": "Gin, marrasquino y violeta.",
+      "image_url": "https://picsum.photos/seed/bit_drinks48/400/600",
+      "price": 130.00,
+      "category_id": 1,
+      "subcategory_id": 3,
+      "available": true
+    },
+    {
+      "id": 49,
+      "name": "Clover Club",
+      "description": "Gin, frambuesa y limón.",
+      "image_url": "https://picsum.photos/seed/bit_drinks49/400/600",
+      "price": 120.00,
+      "category_id": 1,
+      "subcategory_id": 1,
+      "available": true
+    },
+    {
+      "id": 50,
+      "name": "Ramos Gin Fizz",
+      "description": "Gin, crema, cítricos y agua de azahar.",
+      "image_url": "https://picsum.photos/seed/bit_drinks50/400/600",
+      "price": 135.00,
+      "category_id": 1,
+      "subcategory_id": 3,
+      "available": true
+    }
+  ],
+  "promotions": [
+    {
+      "id": 1,
+      "product_id": 5,
+      "type": "discount",
+      "value": 20,
+      "description": "20% de descuento en Pina Colada",
+      "start_date": "2025-09-01",
+      "end_date": "2026-09-30",
+      "active": true
+    },
+    {
+      "id": 2,
+      "product_id": 10,
+      "type": "two_for_one",
+      "value": 1,
+      "description": "Compra 2 Negronis y paga 1",
+      "start_date": "2025-09-05",
+      "end_date": "2026-09-20",
+      "active": true
+    },
+    {
+      "id": 3,
+      "product_id": 15,
+      "type": "discount",
+      "value": 15,
+      "description": "15% de descuento en Manhattan",
+      "start_date": "2025-09-10",
+      "end_date": "2026-09-25",
+      "active": true
+    },
+    {
+      "id": 4,
+      "product_id": 22,
+      "type": "two_for_one",
+      "value": 1,
+      "description": "2x1 en Mint Julep los fines de semana",
+      "start_date": "2025-09-12",
+      "end_date": "2026-09-30",
+      "active": true
+    },
+    {
+      "id": 5,
+      "product_id": 33,
+      "type": "discount",
+      "value": 25,
+      "description": "25% de descuento en Hurricane esta semana",
+      "start_date": "2025-09-15",
+      "end_date": "2026-09-21",
+      "active": true
+    }
+  ]
+}
