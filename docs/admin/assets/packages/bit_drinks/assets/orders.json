@@ -2,7 +2,7 @@
   "orders": [
     {
       "id": "BD-1048",
-      "customer_name": "Mariana Torres",
+      "customer_name": "Valeria Mendoza",
       "address": "Roma Norte · Medellín 84",
       "payment_method": "cash",
       "status": "received",
