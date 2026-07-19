@@ -31,8 +31,18 @@
 
   <title>Bit & Drinks</title>
   <link rel="manifest" href="manifest.json">
+  <style>
+    html, body { margin: 0; min-height: 100%; background: #070B0F; }
+    #bootstrap-loader {
+      position: fixed; inset: 0; display: grid; place-items: center;
+      color: #F7F4ED; font: 700 16px system-ui, sans-serif;
+      background: radial-gradient(circle at 50% 30%, #14202A, #070B0F 60%);
+    }
+    #bootstrap-loader span { color: #FFA033; letter-spacing: 1.2px; }
+  </style>
 </head>
 <body>
+  <div id="bootstrap-loader"><span>BIT &amp; DRINKS · PREPARANDO EL MENÚ</span></div>
   <!--
     You can customize the "flutter_bootstrap.js" script.
     This is useful to provide a custom configuration to the Flutter loader
@@ -42,5 +52,14 @@
     * https://docs.flutter.dev/platform-integration/web/initialization
   -->
   <script src="flutter_bootstrap.js" async></script>
+  <script>
+    const loaderObserver = new MutationObserver(() => {
+      if (document.querySelector('flutter-view')) {
+        document.getElementById('bootstrap-loader')?.remove();
+        loaderObserver.disconnect();
+      }
+    });
+    loaderObserver.observe(document.body, { childList: true, subtree: true });
+  </script>
 </body>
 </html>

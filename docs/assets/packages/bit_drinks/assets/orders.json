@@ -3,25 +3,39 @@
     {
       "id": "BD-1048",
       "customer_name": "Valeria Mendoza",
+      "customer_phone": "55 8472 1093",
       "address": "Roma Norte · Medellín 84",
+      "delivery_reference": "Edificio de ladrillo, departamento 3B",
+      "kitchen_note": "Sin azúcar en ambas bebidas",
+      "delivery_note": "Marcar al llegar; el timbre no funciona",
+      "delivery_fee": 35,
       "payment_method": "cash",
       "status": "received",
       "minutes_ago": 8,
-      "lines": [{"product_id": 1, "quantity": 2}, {"product_id": 2, "quantity": 1}]
+      "lines": [{"product_id": 1, "quantity": 2, "modifiers": [{"groupId": "size", "groupName": "Tamaño", "optionId": "large", "optionName": "Grande", "priceDelta": 20}, {"groupId": "ice", "groupName": "Hielo", "optionId": "light", "optionName": "Poco hielo"}]}, {"product_id": 2, "quantity": 1, "modifiers": [{"groupId": "extra", "groupName": "Extra", "optionId": "tajin", "optionName": "Escarchado con Tajín", "priceDelta": 10}]}]
     },
     {
       "id": "BD-1047",
       "customer_name": "Carlos Vega",
+      "customer_phone": "55 3340 8821",
       "address": "Condesa · Tamaulipas 132",
+      "delivery_reference": "Casa con portón verde frente al parque",
+      "kitchen_note": "Preparar los mojitos sin popote",
+      "delivery_fee": 40,
       "payment_method": "bankTransfer",
       "status": "preparing",
       "minutes_ago": 27,
-      "lines": [{"product_id": 15, "quantity": 2}, {"product_id": 4, "quantity": 4}]
+      "lines": [{"product_id": 15, "quantity": 2, "modifiers": [{"groupId": "size", "groupName": "Tamaño", "optionId": "large", "optionName": "Grande", "priceDelta": 20}]}, {"product_id": 4, "quantity": 4, "modifiers": [{"groupId": "sweetness", "groupName": "Dulzor", "optionId": "half", "optionName": "50% azúcar"}]}]
     },
     {
       "id": "BD-1046",
       "customer_name": "Fernanda Ruiz",
+      "customer_phone": "55 9061 4720",
       "address": "Juárez · Londres 215",
+      "delivery_reference": "Recepción del hotel",
+      "delivery_note": "Entregar en recepción a nombre de Fernanda",
+      "courier_name": "Marco R.",
+      "delivery_fee": 45,
       "payment_method": "cash",
       "status": "onTheWay",
       "minutes_ago": 46,
