@@ -1,11 +1,11 @@
 {
-    "name": "Bit&Drinks",
-    "short_name": "Bit&Drinks",
+    "name": "bit_drinks_app",
+    "short_name": "bit_drinks_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Bit&Drinks sample app.",
+    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

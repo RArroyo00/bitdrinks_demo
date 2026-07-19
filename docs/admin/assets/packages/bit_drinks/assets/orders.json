@@ -1,0 +1,122 @@
+{
+  "orders": [
+    {
+      "id": "BD-1048",
+      "customer_name": "Mariana Torres",
+      "address": "Roma Norte · Medellín 84",
+      "payment_method": "cash",
+      "status": "received",
+      "minutes_ago": 8,
+      "lines": [{"product_id": 1, "quantity": 2}, {"product_id": 2, "quantity": 1}]
+    },
+    {
+      "id": "BD-1047",
+      "customer_name": "Carlos Vega",
+      "address": "Condesa · Tamaulipas 132",
+      "payment_method": "bankTransfer",
+      "status": "preparing",
+      "minutes_ago": 27,
+      "lines": [{"product_id": 15, "quantity": 2}, {"product_id": 4, "quantity": 4}]
+    },
+    {
+      "id": "BD-1046",
+      "customer_name": "Fernanda Ruiz",
+      "address": "Juárez · Londres 215",
+      "payment_method": "cash",
+      "status": "onTheWay",
+      "minutes_ago": 46,
+      "lines": [{"product_id": 3, "quantity": 2}]
+    },
+    {
+      "id": "BD-1045",
+      "customer_name": "Diego Luna",
+      "address": "Escandón · Progreso 41",
+      "payment_method": "cash",
+      "status": "completed",
+      "minutes_ago": 120,
+      "lines": [{"product_id": 6, "quantity": 1}, {"product_id": 10, "quantity": 2}]
+    },
+    {
+      "id": "BD-1044",
+      "customer_name": "Sofía Herrera",
+      "address": "Del Valle · Amores 521",
+      "payment_method": "bankTransfer",
+      "status": "received",
+      "days_ago": 1,
+      "minutes_ago": 35,
+      "lines": [{"product_id": 2, "quantity": 2}, {"product_id": 8, "quantity": 1}]
+    },
+    {
+      "id": "BD-1043",
+      "customer_name": "Andrés Molina",
+      "address": "Narvarte · Zempoala 18",
+      "payment_method": "cash",
+      "status": "completed",
+      "days_ago": 2,
+      "lines": [{"product_id": 5, "quantity": 3}]
+    },
+    {
+      "id": "BD-1042",
+      "customer_name": "Paola Méndez",
+      "address": "Coyoacán · Aguayo 33",
+      "payment_method": "bankTransfer",
+      "status": "canceled",
+      "days_ago": 3,
+      "lines": [{"product_id": 7, "quantity": 2}, {"product_id": 11, "quantity": 1}]
+    },
+    {
+      "id": "BD-1041",
+      "customer_name": "Rodrigo Salas",
+      "address": "San Rafael · Serapio Rendón 67",
+      "payment_method": "cash",
+      "status": "completed",
+      "days_ago": 5,
+      "lines": [{"product_id": 1, "quantity": 4}]
+    },
+    {
+      "id": "BD-1040",
+      "customer_name": "Camila Ríos",
+      "address": "Polanco · Homero 410",
+      "payment_method": "bankTransfer",
+      "status": "completed",
+      "days_ago": 9,
+      "lines": [{"product_id": 3, "quantity": 2}, {"product_id": 9, "quantity": 2}]
+    },
+    {
+      "id": "BD-1039",
+      "customer_name": "Luis Cabrera",
+      "address": "Nápoles · Georgia 91",
+      "payment_method": "cash",
+      "status": "completed",
+      "days_ago": 14,
+      "lines": [{"product_id": 4, "quantity": 2}, {"product_id": 12, "quantity": 1}]
+    },
+    {
+      "id": "BD-1038",
+      "customer_name": "Regina Campos",
+      "address": "Santa María · Sabino 155",
+      "payment_method": "bankTransfer",
+      "status": "canceled",
+      "days_ago": 18,
+      "lines": [{"product_id": 6, "quantity": 3}]
+    },
+    {
+      "id": "BD-1037",
+      "customer_name": "Mateo Fuentes",
+      "address": "Anzures · Darwin 24",
+      "payment_method": "cash",
+      "status": "completed",
+      "days_ago": 26,
+      "lines": [{"product_id": 10, "quantity": 2}, {"product_id": 13, "quantity": 2}]
+    },
+    {
+      "id": "BD-1036",
+      "customer_name": "Valeria Ortiz",
+      "address": "Fuera del periodo · Pedido histórico",
+      "payment_method": "cash",
+      "status": "completed",
+      "days_ago": 45,
+      "lines": [{"product_id": 14, "quantity": 2}]
+    }
+  ]
+}

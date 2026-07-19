@@ -1,0 +1,352 @@
+{
+  "categories": [
+    {"id": 1, "name": "Coctelería clásica"},
+    {"id": 2, "name": "Mixología"},
+    {"id": 3, "name": "Micheladas"}
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Nube de Mango",
+      "description": "Mango tropical con un toque de coco; cremosa y perfecta para refrescar la noche.",
+      "image_url": "packages/bit_drinks/assets/menu/nube-de-mango.jpg",
+      "price": 90.0,
+      "category_id": 1,
+      "available": true,
+      "ingredients": ["mango", "coco", "crema"],
+      "recommended": true,
+      "modifier_groups": [
+        {
+          "id": "alcohol",
+          "name": "Alcohol",
+          "minimum_selections": 1,
+          "maximum_selections": 1,
+          "options": [
+            {"id": "with", "name": "Con alcohol", "price_delta": 0, "is_default": true},
+            {"id": "without", "name": "Sin alcohol", "price_delta": -10}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Nube Cremosa",
+      "description": "Una nube suave, cremosa y especiada para beberse despacio.",
+      "image_url": "packages/bit_drinks/assets/menu/nube-cremosa.jpg",
+      "price": 90.0,
+      "category_id": 1,
+      "available": true,
+      "ingredients": ["crema", "coco", "especias"]
+    },
+    {
+      "id": 3,
+      "name": "Mojito Caribeño",
+      "description": "Mango, hierbabuena y cítricos con toda la frescura del Caribe.",
+      "image_url": "packages/bit_drinks/assets/menu/mojito-caribeno.jpg",
+      "price": 90.0,
+      "category_id": 1,
+      "available": true,
+      "ingredients": ["ron", "mango", "hierbabuena", "limón", "soda"],
+      "recommended": true
+    },
+    {
+      "id": 4,
+      "name": "Mojito Clásico",
+      "description": "Ron, hierbabuena, limón y soda en el clásico fresco de la casa.",
+      "image_url": "packages/bit_drinks/assets/menu/mojito-clasico.jpg",
+      "price": 90.0,
+      "category_id": 1,
+      "available": true,
+      "ingredients": ["ron", "hierbabuena", "limón", "soda"],
+      "modifier_groups": [
+        {
+          "id": "alcohol",
+          "name": "Alcohol",
+          "minimum_selections": 1,
+          "maximum_selections": 1,
+          "options": [
+            {"id": "with", "name": "Con ron", "price_delta": 0, "is_default": true},
+            {"id": "without", "name": "Sin alcohol", "price_delta": -10}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Mojito Frutos Rojos",
+      "description": "Mojito vibrante con fresa, frambuesa y frutos rojos.",
+      "image_url": "packages/bit_drinks/assets/menu/mojito-frutos-rojos.jpg",
+      "price": 90.0,
+      "category_id": 1,
+      "available": true,
+      "ingredients": ["ron", "fresa", "frambuesa", "hierbabuena", "limón"]
+    },
+    {
+      "id": 6,
+      "name": "ICE",
+      "description": "Una explosión helada y frutal. Elige entre cereza o mora azul.",
+      "image_url": "packages/bit_drinks/assets/menu/ice.jpg",
+      "price": 90.0,
+      "category_id": 1,
+      "available": true,
+      "ingredients": ["vodka", "fruta", "mezcla frozen"],
+      "modifier_groups": [
+        {
+          "id": "flavor",
+          "name": "Sabor",
+          "minimum_selections": 1,
+          "maximum_selections": 1,
+          "options": [
+            {"id": "cherry", "name": "Cereza", "price_delta": 0, "is_default": true},
+            {"id": "blueberry", "name": "Mora azul", "price_delta": 0}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Electric Blue",
+      "description": "Vodka y un toque de energía; azul, chispeante y refrescante.",
+      "image_url": "packages/bit_drinks/assets/menu/electric-blue.jpg",
+      "price": 90.0,
+      "category_id": 1,
+      "available": true,
+      "ingredients": ["vodka", "mezcla azul", "bebida energética"],
+      "recommended": true
+    },
+    {
+      "id": 8,
+      "name": "Fresón",
+      "description": "Vodka, licor de fresa y una chispa de energía.",
+      "image_url": "packages/bit_drinks/assets/menu/freson.jpg",
+      "price": 90.0,
+      "category_id": 1,
+      "available": true,
+      "ingredients": ["vodka", "licor de fresa", "fresa", "bebida energética"]
+    },
+    {
+      "id": 9,
+      "name": "Linterna Verde",
+      "description": "Vodka, soda y una mezcla chispeante de ingredientes secretos.",
+      "image_url": "packages/bit_drinks/assets/menu/linterna-verde.jpg",
+      "price": 90.0,
+      "category_id": 1,
+      "available": true,
+      "ingredients": ["vodka", "soda", "mezcla verde"]
+    },
+    {
+      "id": 10,
+      "name": "Tinto Tropical",
+      "description": "Mezcla irresistible de vino tinto y vodka para cualquier ocasión.",
+      "image_url": "packages/bit_drinks/assets/menu/tinto-tropical.jpg",
+      "price": 90.0,
+      "category_id": 1,
+      "available": true,
+      "ingredients": ["vino tinto", "vodka", "cítricos"]
+    },
+    {
+      "id": 11,
+      "name": "Laguna Azul",
+      "description": "Piña, coco y una mezcla azul de frescura tropical.",
+      "image_url": "packages/bit_drinks/assets/menu/laguna-azul.jpg",
+      "price": 90.0,
+      "category_id": 1,
+      "available": true,
+      "ingredients": ["piña", "coco", "mezcla azul"]
+    },
+    {
+      "id": 12,
+      "name": "Margarita Bulldog",
+      "description": "Margarita explosiva de tequila coronada con cerveza.",
+      "image_url": "packages/bit_drinks/assets/menu/margarita-bulldog.jpg",
+      "price": 90.0,
+      "category_id": 1,
+      "available": true,
+      "ingredients": ["tequila", "cerveza", "limón", "chamoy"],
+      "recommended": true
+    },
+    {
+      "id": 13,
+      "name": "Sunrise",
+      "description": "Naranja fresca y el toque vibrante del vodka en cada sorbo.",
+      "image_url": "packages/bit_drinks/assets/menu/sunrise.jpg",
+      "price": 90.0,
+      "category_id": 1,
+      "available": true,
+      "ingredients": ["vodka", "naranja", "granadina"]
+    },
+    {
+      "id": 14,
+      "name": "Té del Olvido",
+      "description": "Una mezcla intensa de ron, vodka y tequila para el lado más atrevido de la noche.",
+      "image_url": "packages/bit_drinks/assets/menu/te-del-olvido.jpg",
+      "price": 90.0,
+      "category_id": 1,
+      "available": true,
+      "ingredients": ["ron", "vodka", "tequila", "limón"]
+    },
+    {
+      "id": 15,
+      "name": "Blue Boom",
+      "description": "Vodka y un toque dulce que explota en la boca.",
+      "image_url": "packages/bit_drinks/assets/menu/blue-boom.jpg",
+      "price": 90.0,
+      "category_id": 1,
+      "available": true,
+      "ingredients": ["vodka", "mezcla azul", "toque dulce"]
+    },
+    {
+      "id": 16,
+      "name": "Mezcalita",
+      "description": "Mezcal, jamaica y cítricos con un toque ahumado.",
+      "image_url": "packages/bit_drinks/assets/menu/mezcalita.jpg",
+      "price": 120.0,
+      "category_id": 2,
+      "available": true,
+      "ingredients": ["mezcal", "jamaica", "cítricos"],
+      "recommended": true
+    },
+    {
+      "id": 17,
+      "name": "Cantaritos",
+      "description": "Tequila, cítricos y refresco de toronja en un clásico mexicano.",
+      "image_url": "packages/bit_drinks/assets/menu/cantaritos.jpg",
+      "price": 120.0,
+      "category_id": 2,
+      "available": true,
+      "ingredients": ["tequila", "toronja", "naranja", "limón"]
+    },
+    {
+      "id": 18,
+      "name": "Mango Reyes",
+      "description": "Mezcal y chile con el golpe tropical del mango.",
+      "image_url": "packages/bit_drinks/assets/menu/mango-reyes.jpg",
+      "price": 120.0,
+      "category_id": 2,
+      "available": true,
+      "ingredients": ["mezcal", "mango", "chile", "sal de gusano"]
+    },
+    {
+      "id": 19,
+      "name": "Gin Berries",
+      "description": "Ginebra y frutos rojos: una mezcla fresca en cada sorbo.",
+      "image_url": "packages/bit_drinks/assets/menu/gin-berries.jpg",
+      "price": 120.0,
+      "category_id": 2,
+      "available": true,
+      "ingredients": ["ginebra", "frutos rojos", "tónica"]
+    },
+    {
+      "id": 20,
+      "name": "Carajillo Golden",
+      "description": "Café espresso, licor y whisky en una mezcla intensa y balanceada.",
+      "image_url": "packages/bit_drinks/assets/menu/carajillo-golden.jpg",
+      "price": 120.0,
+      "category_id": 2,
+      "available": true,
+      "ingredients": ["café espresso", "licor", "whisky"]
+    },
+    {
+      "id": 21,
+      "name": "Michelada Especial",
+      "description": "Michelada preparada con limón, salsas, escarchado y los toppings que prefieras.",
+      "image_url": "packages/bit_drinks/assets/menu/michelada.jpg",
+      "price": 100.0,
+      "category_id": 3,
+      "available": true,
+      "ingredients": ["cerveza", "limón", "chamoy", "salsas", "Tajín"],
+      "recommended": true,
+      "modifier_groups": [
+        {
+          "id": "beer_type",
+          "name": "Tipo de cerveza",
+          "minimum_selections": 1,
+          "maximum_selections": 1,
+          "options": [
+            {"id": "light", "name": "Cerveza clara", "price_delta": 0, "is_default": true},
+            {"id": "dark", "name": "Cerveza oscura", "price_delta": 10}
+          ]
+        },
+        {
+          "id": "spice_level",
+          "name": "Nivel de picante",
+          "minimum_selections": 1,
+          "maximum_selections": 1,
+          "options": [
+            {"id": "mild", "name": "Suave", "price_delta": 0},
+            {"id": "medium", "name": "Medio", "price_delta": 0, "is_default": true},
+            {"id": "hot", "name": "Picante", "price_delta": 0}
+          ]
+        },
+        {
+          "id": "toppings",
+          "name": "Toppings",
+          "minimum_selections": 0,
+          "maximum_selections": 4,
+          "options": [
+            {"id": "gummies", "name": "Gomitas enchiladas", "price_delta": 15},
+            {"id": "cucumber", "name": "Pepino", "price_delta": 10},
+            {"id": "tamarind", "name": "Dulce de tamarindo", "price_delta": 15},
+            {"id": "peanuts", "name": "Cacahuates japoneses", "price_delta": 15},
+            {"id": "candy_skewer", "name": "Banderilla de dulces", "price_delta": 20}
+          ]
+        }
+      ]
+    }
+  ],
+  "coupons": [
+    {
+      "code": "BIT10",
+      "description": "10% en toda la orden desde $250",
+      "condition": {"minimum_order": 250},
+      "reward": {"type": "percentage", "scope": "order", "value": 10},
+      "active": true
+    },
+    {
+      "code": "NOCHE50",
+      "description": "$50 en toda la orden desde $500",
+      "condition": {"minimum_order": 500},
+      "reward": {"type": "fixed", "scope": "order", "value": 50},
+      "active": true
+    },
+    {
+      "code": "CLASICOS180",
+      "description": "Dos clásicos seleccionados por $180",
+      "condition": {"eligible_product_ids": [1, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15], "minimum_item_count": 2},
+      "reward": {"type": "fixed_bundle_price", "scope": "bundle", "value": 180},
+      "active": true
+    }
+  ],
+  "promotions": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "type": "discount",
+      "value": 15,
+      "description": "15% en Nube de Mango",
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "active": true
+    },
+    {
+      "id": 2,
+      "product_id": 12,
+      "type": "two_for_one",
+      "value": 1,
+      "description": "2x1 en Margarita Bulldog",
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "active": true
+    },
+    {
+      "id": 3,
+      "product_id": 16,
+      "type": "discount",
+      "value": 10,
+      "description": "10% en Mezcalita",
+      "start_date": "2026-01-01",
+      "end_date": "2026-12-31",
+      "active": true
+    }
+  ]
+}
